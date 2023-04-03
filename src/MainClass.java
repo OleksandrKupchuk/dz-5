@@ -29,10 +29,6 @@ public class MainClass {
         }
     }
     private static void checkingMultiplicityOfNumbersByTwo(int firstSum, int secondSum){
-        if (firstSum % 2 == 0 || secondSum % 2 == 0){
-            System.out.println("The sum is a multiple of 2 = " + true);
-        }else {
-            System.out.println("The sum is a multiple of 2 = " + false);
-        }
+        System.out.println("The sum is a multiple of 2 = " + (firstSum % 2 == 0 || secondSum % 2 == 0));
     }
 }
